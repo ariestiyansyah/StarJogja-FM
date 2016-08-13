@@ -1,10 +1,12 @@
-var menubar = require('menubar')
+'use strict';
 
-var mb = menubar({
+let menubar = require('menubar');
+let mb = menubar({
     width: 300,
     height: 130,
-})
+});
 
-mb.on('ready', function ready () {
-  console.log('Starting Radio...')
-})
+mb.on('ready', function ready() {
+    console.log('Starting Radio...');
+});
+
